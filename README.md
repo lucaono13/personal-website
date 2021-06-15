@@ -8,4 +8,5 @@ Features of website:
     * Subpage 1: Board Game Geek Info grabber and downloader using BoardGameGeek's XMLAPI2 https://boardgamegeek.com/wiki/page/BGG_XML_API2
     * Subpage 2: Personal projects that are hosted on Github (can download resume from site as well)
     * Subpage 3: Football Manager Save trackers
-  * Will be updating/adding more features and improving UI after hosting
+  * Will be updating/adding more features and improving UI after hosting\
+  * Fonts used in project will be changed to ensure that they are complying with their own licenses if needed. 
