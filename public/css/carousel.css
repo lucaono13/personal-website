@@ -1,0 +1,53 @@
+.carousel-caption{
+    background-color: rgba(63, 63, 63, 0.63);
+
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(63, 63, 63, 0.63);
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(63, 63, 63, 0.63);
+}
+
+.carousel-item img {
+    height: 300px !important;
+}
+
+.carousel-inner img {
+    display: inline-block !important;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carborder {
+    border: 2px solid grey;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselDiv {
+    display: inline-block;
+}
+
+
+.row {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+}
+
+.roadMapDiv {
+    margin-top: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h3 {
+    font-size: 30px !important;
+}

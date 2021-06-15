@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'vervellescript';
+    src: url('/fonts/vervelle-script-webfont.woff2') format('woff2'),
+         url('/fonts/vervelle-script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'another-typewriter';
+    src: url('/fonts/atwriter-webfont.woff2') format('woff2'),
+         url('/fonts/atwriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.site-name {
+    font-family: vervellescript;
+    font-size: 31px !important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(128, 128, 255);
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    margin:auto;
+    height: 30px;
+}
+
+body {
+    padding-bottom: 30px ;
+}
+
+h1, h3{
+    font-family: another-typewriter;
+    text-align: center;
+    font-size: 60px !important;
+}
+
+.pageDesc {
+    text-align: center;
+    margin-bottom: 15px;
+}

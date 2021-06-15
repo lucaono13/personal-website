@@ -1,0 +1,51 @@
+.boxCard {
+    margin-left: 2%;
+    border-radius: 7px;
+    border: 1px solid grey;
+    padding-bottom: 1px;
+    box-shadow: -2px 4px black;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.boxCard p,ul {
+    margin-left: 5pt;
+}
+
+.boxCard p {
+    margin-top: 2px;
+    padding-bottom: 0px;
+}
+
+.boxCard dl {
+    margin-left: 15px;
+}
+
+.boxHead{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.icon {
+    width: 50px;
+}
+
+.icon {
+    width: 50px
+}
+
+.ram {
+    width: 35px;
+}
+
+.aboutText {
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+h1 {
+    font-family: another-typewriter;
+    text-align: center;
+    font-size: 60px !important;
+}

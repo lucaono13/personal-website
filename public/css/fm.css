@@ -1,0 +1,114 @@
+
+.team-logo {
+    width:8%;
+    margin-right: 10pt;
+    margin-left: 1%;
+    border-right: 1px solid gray;
+    display:inline-block;
+    vertical-align: top;
+    padding-right: 5pt;
+}
+
+.game-status {
+    padding-left: 5pt;
+    padding-right: 5pt;
+    display:inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.logo {
+    width: 100%;
+}
+
+.somePadding {
+    margin-top: 5pt !important;
+}
+
+.stadium {
+    border: 2px solid black;
+    width:100%;
+}
+
+.transferlist {
+    padding-left: 5pt;
+    padding-right: 5pt;
+    display: inline-block;
+    width:15%;
+    vertical-align: top;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.transferlist li {
+    font-size: small;
+}
+
+.trophylist {
+    padding-left: 5pt;
+    padding-right: 5pt;
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    border-right: 1px solid gray;
+}
+
+.trophylist li {
+    font-size: small;
+    border-right: 1px solid gray;
+    padding-right: 5pt;
+}
+
+.listhead {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.save-story {
+    padding-left: 5pt;
+    padding-right: 5pt;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.story-body {
+    font-size: small;
+}
+
+dd, dt {
+    font-size: small;
+}
+
+.theBadge {
+    font-size: 12px !important;
+}
+
+.bari {
+    width: 75% !important; 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5pt;
+}
+
+.bestXI {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    padding-left: 5pt;
+    border-left: 1px solid gray;
+}
+
+.xi {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.fmAccor {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+}

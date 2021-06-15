@@ -1,0 +1,33 @@
+.proj-box {
+    border-radius: 7px;
+    border: 1px solid gray;
+    width: 400px;
+    height: 400px;
+    box-shadow: -2px 4px black;
+    display: inline-block;
+    margin-left: 2%;
+    vertical-align: top;
+}
+
+.proj-pic {
+    width: 100%;
+    height: 60%;
+    border-bottom: 1px solid grey;
+    border-radius: 7px;
+}
+
+.proj-desc {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.not-first {
+    margin-left: 5%;
+}
+
+.second-row {
+    margin-top: 5%;
+}

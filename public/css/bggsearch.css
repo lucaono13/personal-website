@@ -1,0 +1,228 @@
+.rtable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.rtable {
+    width: 100%;
+    table-layout: fixed;
+    height: 490px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.rtable tbody {
+    height: 50%;
+    overflow: scroll;
+    table-layout: fixed;
+}
+
+.name-cell {
+    width: 55%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    table-layout: fixed;
+}
+
+.type-cell {
+    width: 15%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.year-cell {
+    text-align: center;
+    width: 20%;
+    table-layout: fixed;
+}
+
+.id-cell {
+    width: 10%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+
+.rtable th {
+    position:sticky;
+    top:  0;
+    box-shadow: inset 2px 2px #000, 2px 2px #000;
+    background-color: solid white;
+}
+
+
+.hrow {
+    background-color: white;
+}
+
+
+.listHead {
+    text-align: center;
+    font-weight: bold;
+}
+
+.searchBox {
+    display: inline-block !important;
+    margin-left: 2%;
+    vertical-align: top;
+}
+
+.results-div {
+    width: 40%;
+    height: 510px;
+    overflow: scroll;
+    table-layout: fixed;
+}
+
+.rtablediv {
+    height: 95%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.art_div {
+    width: 30%;
+    align-self: center;
+    height:500px;
+}
+
+.gamesToExport {
+    width: 20%;
+}
+
+.whatToExport {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.etable tr {
+    width: 100%;
+}
+
+.etable {
+    height: 300px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    table-layout: fixed;
+}
+
+.exportTab {
+    width: 100% !important;
+    background-color: white; 
+    text-align: center;
+}
+
+.nameExport {
+    width: 50%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis !important;
+    table-layout: fixed;
+}
+
+.searchInput {
+    margin-left: 5%;
+    width: 95%;
+}
+
+.nothing {
+    text-align: center;
+    border: 0px;
+    font-size: large;
+    font-weight: bold;
+    height: 50%;
+}
+
+
+
+.bg_art {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.art {
+    padding-right: 15%;
+}
+
+.allAccors {
+    width: 60%;
+}
+
+.art_div button {
+    display: block;
+    margin: auto;
+}
+
+.dataExport {
+    width:60%;
+    float: left;
+    margin-left: 5%;
+}
+
+.dataSelection {
+    width: 25%;
+}
+
+.dataSelection td{
+    margin: auto;
+    text-align: center;
+}
+
+.btn-removal {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+
+.addBtn {
+    margin-top: 10px;
+}
+
+.flex-parent {
+    display:flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+.flex-child:first-child {
+    margin-right: 1px;
+}
+
+.selection {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.export-btn {
+    margin: auto;
+}
+
+.form-control {
+    width:45%;
+}
+
+.row {
+    padding-bottom: 5px !important;
+}
+
+.expDivBtn {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.centered {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
