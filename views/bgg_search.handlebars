@@ -1,0 +1,111 @@
+<h1 style="margin-left: 5%;">Board Game Search & Export</h1>
+<form class="row g-3 align-items-center searchInput" style="margin-left: 5%; width:95%;">
+    <div class="col-auto">
+        <input class="form-control" type="text" name="bgg_query" id="board_game_q" placeholder="Board Game Search">
+    </div>
+    <div class="col-auto">
+        <label for="is_board_game" class="form-check-label">Board Game?</label>
+        <input type="checkbox" class="form-check-input" id="is_board_game">
+    </div>
+    <div class="col-auto">
+        <label class="form-check-label" for="is_expan">Expansion?</label>
+        <input class="form-check-input" type="checkbox" id="is_expan">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary" id="bgq_submit">Search</button>
+    </div>
+    <div class='col-auto'><i class='total' id='resultTot'>0</i> results</div>
+</form>
+<hr>
+<div id="results-div" class="searchBox results-div">
+    <table id='rtable' class='rtable table table-light table-hover table-striped'>
+        <thead class='sticky'>
+            <tr style="background-color: white;">
+                <th id='name_h' class="name-cell" style="text-align: center;">Name</th>
+                <th id='year_h' class="year-cell">Year Published</th>
+                <th id='type_h' class="type-cell">Type</th>
+                <th id='id_h' class="id-cell">ID</th>
+            </tr>
+        </thead>
+        <tr id='nothing_row'>
+            <td id='nothing' class='nothing' colspan="4">No Search Requested</td>
+        </tr>
+    </table>
+
+</div>
+<div class="searchBox art_div">
+    <p style="text-align: center; font-weight: bold;">Selected Game Box Art</p>
+    <img id='art' class="bg_art" alt="No Image"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/0a/No-image-available.png">
+    <br><br>
+    <div style="margin-left: auto; margin-right:auto">
+        <button type="button" class='addBtn btn btn-primary' id="addtoExport">Add to Export</button>
+    </div>
+    <br>
+</div>
+<div class='searchBox gamesToExport'>
+    <div class='listHead'>Games to Export List</div>
+    <div id="gamesList" class='etable'>
+        <p style='text-align:center'></p>
+        <table id="glist" class="glist table table-hover table-striped">
+        </table>
+    </div>
+    <br><br>
+    <div class='btn-removal'>
+        <button type="button" id="removal" class="rml-btn btn btn-danger">Remove from Export</button>
+
+    </div>
+</div>
+
+<br>
+<hr>
+<div class="whatToExport">
+    <div>
+        <h3 style="font-size: 30px !important;">Select the data you want in the exported CSV file</h3>
+        <p>Then click the export button at the bottom to export!</p>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-6'>
+                    <label class="form-check-label" for="num_expan"># of Expansions</label> <input class="form-check-input" type="checkbox" id="num_expan">
+                </div>
+                <div class='col-6'>
+                    <label class="form-check-label" for="num_play"># of Players</label> <input class="form-check-input" type="checkbox" id="num_play">
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-6'>
+                    <label class="form-check-label" for="avg_rating">Avg. Rating</label> <input class="form-check-input" type="checkbox" id="avg_rating">
+                </div>
+                <div class='col-6'>
+                    <label class="form-check-label" for="bgg_rank">BGG Rank</label> <input class="form-check-input" type="checkbox" id="bgg_rank">
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-6'>
+                    <label class="form-check-label" for="weight">Difficulty*</label> <input class="form-check-input" type="checkbox" id="weight">
+                </div>
+                <div class='col-6'>
+                    <label class="form-check-label" for="minage">Min. Age</label> <input class="form-check-input" type="checkbox" id="minage">
+                </div>
+            </div>
+            <div class='row align-items-center'>
+                <div class='col-12'>
+                    <label class="form-check-label" for="playtime">Playtime</label> <input class="form-check-input" type="checkbox" id="playtime">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='expDivBtn'>
+        <button type="button" id='export-btn' class='btn btn-primary export-btn' disabled>Export to CSV</button>
+        <br>
+        
+    </div>
+    <div>
+        <span style="font-size: x-small;">Game name and year will automatically be in the file</span>
+        <br>
+        <span style='font-size: x-small;'>*Difficulty is in a range of 1-5 where 1 is the easiest and 5 is the hardest</span>
+    </div>
+    <br><br>
+</div>
+
+<script src="./js/bgg_search.js"></script>

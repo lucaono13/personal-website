@@ -1,0 +1,23 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express_start.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express_start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,64 @@
+<h1>Home</h1>
+<div class='pageDesc'>The home page to my dashboard. It is very empty at the moment, but the roadmap is some features I would like to implement at some point!</div>
+<div class='topRow'>
+    <div id='carouselDiv' class='carousel slide carborder' data-bs-ride='carousel'>
+        <div class='carousel-inner'>
+            <div class='carousel-item active' data-bs-interval="10000">
+                <img id='bgpic1' class='d-bloc align-middle' alt="#1 Hottest Game on Board Game Geek">
+                <div class='carousel-caption d-none d-md-block'>
+                    <h5 id='bgh1'></h5>
+                    <p>Currently the #1 Hottest board game on BoardGameGeek.com</p>
+                </div>
+            </div>
+            <div class='carousel-item' data-bs-interval="10000">
+                <img id='caritem1' class='d-bloc carpic' alt="Board Game Info App UI"
+                    src='/images/side-projects/bgg_info_ui.png'>
+                <div class='carousel-caption d-none d-md-block'>
+                    <h5>Board Game Search App & More</h5>
+                    <p>Go to the side projects tab to see this and some other projects!</p>
+                </div>
+            </div>
+            <div class='carousel-item' data-bs-interval="10000">
+                <img id='bgpic2' class='d-bloc carpic' alt="#2 Hottest Game on Board Game Geek">
+                <div class='carousel-caption d-none d-md-block'>
+                    <h5 id='bgh2'></h5>
+                    <p>Currently the #2 Hottest board game on BoardGameGeek.com</p>
+                </div>
+            </div>
+            <div class='carousel-item' data-bs-interval="10000">
+                <img id='caritem2' class='d-bloc carpic' alt="#1 Hottest Game on Board Game Geek"
+                    src='/images/home/team-logos.png'>
+                <div class='carousel-caption d-none d-md-block'>
+                    <h5>Football Manager Saves</h5>
+                    <p>Check out the status of Gianluca's most recent Football Manager saves!</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDiv" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDiv" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+<hr>
+<div class='row roadMapDiv'>
+    <h3>Roadmap</h3>
+    <div class='roadMapList col-3'>
+        <div class='btn-group-vertical'>
+            <button class='btn btn-outline-dark' style='font-size:small' id='rm1'>Add news feed to home page</button>
+            <button class='btn btn-outline-dark' style='font-size:small' id='rm2'>Add database backend w/ to-do list</button>
+            <button class='btn btn-outline-dark' style='font-size:small' id='rm3'>Clean up layout in a few pages</button>
+            <button class='btn btn-outline-dark' style='font-size:small' id='rm4'>Add login ability and admin abilities</button>
+        </div>        
+    </div>
+    <div class='roadMapDesc col-9'>
+        <div id='itemDesc'>
+            <p id='desc'></p>
+        </div>
+    </div>
+</div>
+<script src="/js/home.js"></script>
